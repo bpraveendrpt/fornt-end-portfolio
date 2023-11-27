@@ -1,53 +1,53 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiGit,
-} from "react-icons/di";
-import {
-  SiMaterialui,
-  SiGraphql,
-  SiSolidity,
-  SiRedux,
-  SiMongodb,
-  SiHtml5
-} from "react-icons/si";
+
+import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaNode, FaPhp, FaSass, FaLess, FaAngular    } from "react-icons/fa";
+import { SiRedux, SiJavascript } from "react-icons/si";
+
+import { DiJqueryLogo, DiMysql  } from "react-icons/di";
 
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+       <Col xs={4} md={2} className="tech-icons">
+        <FaReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
+        <FaAngular />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
+        <SiJavascript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <FaHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <FaCss3Alt />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <FaBootstrap />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaSass />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaLess />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaNode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJqueryLogo />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaPhp  />
+      </Col>  
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql  />
+      </Col>  
     </Row>
   );
 }

@@ -4,7 +4,6 @@ import LaptopImg from "../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -24,17 +23,17 @@ const About = () => {
                  and I'm from <span className="yellow"> Farmington Hills Michigan.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I have total 10+ years of experience in Designing, Developing, implementing, and testing in client/server e-business, and agriscience applications using ReactJS, Redux and Object-Oriented technologies.
                 <br />
                 <br />
                   As a
-                  <b className="yellow"> Full-Stack </b>developer,  
+                  <b className="yellow"> UI </b>developer,  
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in
                     <b className="yellow"> Javascript, </b>
                     as well as have knowledge in programming languages such as Javascript, ReactJs,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                  <b className="yellow"> HTML5, and CSS3 and SASS.</b>
                   <br />
                   <br />
                   I have a passion for working
@@ -76,7 +75,7 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/bpraveendrpt"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -85,20 +84,10 @@ const About = () => {
                       <AiFillGithub />
                     </a>
                   </li>
+                  
                   <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="twitter"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/bandipraveenkumar/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -109,7 +98,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                     href="https://www.instagram.com/mr_bandipraveen/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour home-social-icons"

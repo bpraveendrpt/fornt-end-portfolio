@@ -17,6 +17,7 @@ import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer";
+import Contact from "./components/ContactForm";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -40,7 +41,7 @@ function App() {
           <Route path="/skillset" element={<Skillset />} /> 
           <Route path="/project" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

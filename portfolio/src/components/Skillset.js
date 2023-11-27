@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 import Particle from './Particle'
-// import Techstack from "../components/Skillset/Techstack";
+import Techstack from "../components/Skillset/Techstack";
 import Toolstack from "../components/Skillset/Toolstack";
 // import Leetcode from "../components/Skillset/Leetcode";
 // import Github from "../components/Skillset/Github";
@@ -15,8 +15,8 @@ const Skillset = () => {
         <h1 className="project-heading">
           Professional <strong className="yellow">Skillset </strong>
         </h1>
-{/* 
-        <Techstack /> */}
+
+        <Techstack />
 
         <h1 className="project-heading">
           <strong className="yellow">Tools</strong> I use
