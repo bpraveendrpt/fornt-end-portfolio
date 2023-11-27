@@ -3,7 +3,10 @@ Responsive personal portfolio template built using React, perfect for showcasing
 
 Live Demo : https://praveen.telanganakeratam.net/
 
+Demo
 
+
+![ezgif com-video-to-gif](https://github.com/bpraveendrpt/fornt-end-portfolio/assets/53850436/b369aaa5-ece0-4d6e-8735-c16317e8a5e7)
 
 
 
