@@ -540,7 +540,8 @@ height: auto !important;
 }
 
 .project-card-view {
-box-shadow: 0 4px 5px 3px rgb(72, 0, 155) !important;
+/* box-shadow: 0 4px 5px 3px rgb(72, 0, 155) !important; */
+box-shadow: 0 4px 5px 3px #fff !important;
 /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
 color: white !important;
 background-color: transparent !important;
@@ -551,8 +552,8 @@ height: 100% !important;
 .project-card-view:hover {
 transform: scale(1.02) !important;
 overflow: hidden !important;
-/* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
-box-shadow: 0 4px 5px 3px rgba(117, 0, 250, 1) !important;
+box-shadow: 0 4px 4px 5px rgb(0 190 51) !important;
+/* box-shadow: 0 4px 5px 3px rgba(117, 0, 250, 1) !important; */
 }
 
 .blog-card {
