@@ -69,9 +69,7 @@ const About = () => {
             <Row>
               <Col md={12} className="home-about-social">
                 <h1>FIND ME ON</h1>
-                <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
-                </p>
+              
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
@@ -96,18 +94,11 @@ const About = () => {
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  <li className="social-icons">
-                    <a
-                     href="https://www.instagram.com/mr_bandipraveen/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                      aria-label="instagram"
-                    >
-                      <AiFillInstagram />
-                    </a>
-                  </li>
+                  
                 </ul>
+                <p>
+                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
+                </p>
               </Col>
             </Row>
           </Container>

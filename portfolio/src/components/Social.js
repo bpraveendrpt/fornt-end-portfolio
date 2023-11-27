@@ -14,9 +14,7 @@ const Social = () => {
               <Col md={12} className="contact-social">
                 <div className='contact-text'>
                 <h1>FIND ME ON</h1>
-                <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
-                </p>
+               
                 </div>
                 <ul className="contact-social-links">
                   <li className="contact-icons">
@@ -40,17 +38,11 @@ const Social = () => {
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  <li className="contact-icons">
-                    <a
-                      href="https://www.instagram.com/mr_bandipraveen/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-color contact-social-icons"
-                    >
-                      <AiFillInstagram />
-                    </a>
-                  </li>
+                  
                 </ul>
+                <p>
+                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
+                </p>
               </Col>
             </Row>
           </Container>

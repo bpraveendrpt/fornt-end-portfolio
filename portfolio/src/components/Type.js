@@ -7,7 +7,7 @@ const Type = () => {
           options={{
             strings: [
               "Front End Developer",
-              "Passionate Blockchain Enthusiast",
+              "Passionate UI Developer",
               "Committed Open Source Contributor",
               "Effective Problem Solver"
             ],

@@ -45,17 +45,7 @@ const Footer = () => {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/mr_bandipraveen/"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="instagram"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>
