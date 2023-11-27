@@ -31,9 +31,9 @@ const About = () => {
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
+                    <b className="yellow"> Reactja </b> and <b className="yellow"> Javascript, </b>
                     as well as have knowledge in programming languages such as Javascript, ReactJs,
-                  <b className="yellow"> HTML5, and CSS3 and SASS.</b>
+                  <b className="yellow"> HTML5, </b> and <b className="yellow">  CSS3, SASS, LASS.</b>
                   <br />
                   <br />
                   I have a passion for working
