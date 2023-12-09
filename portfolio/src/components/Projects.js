@@ -9,6 +9,19 @@ import comakeit from "../assets/projects/comakeit.png";
 import kickstart from "../assets/projects/kickstart.png";
 import Verizon from "../assets/projects/verizon-web.png"
 import viscenario from "../assets/projects/viscenario.png";
+import coserve from "../assets/projects/corserv.png";
+import sankranthi from "../assets/projects/sankranthi.png";
+import srinidhi from "../assets/projects/srinidhi-home.png";
+import fourIds from "../assets/projects/fourids.png";
+import sudio from "../assets/projects/studio.png";
+import itkakam from "../assets/projects/itkakam.png";
+import kent from "../assets/projects/kent.png";
+import rityport from "../assets/projects/ritypromt.png";
+import krafkatha from "../assets/projects/krafkatha.png";
+import vgit from "../assets/projects/vgyanit.png";
+import telangakiratam from "../assets/projects/telanganakiratam.png";
+import golconda from "../assets/projects/golconda.png";
+
 
 const Projects = () => {
   return (
@@ -80,6 +93,128 @@ const Projects = () => {
               title="Viscenario"
               description="Developed web application for Viscenario to explore their duties and overview. Design and develop a highly responsive and interactive Facility Management mobile tablet application where a 3D view of any construction will help various groups of communities including Construction companies, Real Estate, Janitors, etc."
               ghLink="https://viscenario.com/"
+            />
+          </Col>
+        </Row>
+        <h1 className="" style={{ color: "white" }}>Other Projects</h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={coserve}
+              isBlog={false}
+              title="Coserve Solutions"
+              description="Coserve is a transformation solutions enabler, providing seamless digital evolution for organizations looking to expand and increase their revenues"
+              ghLink="https://coservesolutions.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={srinidhi}
+              isBlog={false}
+              title="Srinidhi Design Build"
+              description="SRINIDHI is a premier company in Bangalore known to create unique landmarks, build value for money projects and to maintain quality standards to ensure customer satisfaction."
+              ghLink="http://srinidhidesignbuild.in"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fourIds}
+              isBlog={false}
+              title="4ID's"
+              description="We offer high quality innovative design and expert evaluation services for integrated & multifunctional solutions that help our customers and partners in their business."
+              ghLink="https://4ids.in"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vgit}
+              isBlog={false}
+              title="Vgyan It Services"
+              description="At Vgyan IT services, we support a full-cycle development process from requirements definition and specification, architecture design, coding, testing and validation to product maintenance and support."
+              ghLink="http://www.vgyanitservices.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rityport}
+              isBlog={false}
+              title="RityPropmart"
+              description="Human being since its existence has some secret wishes one of them is saving his hard earned money at a safe place but in this modern era of fast living style we want to finish our jobs quickly."
+              ghLink="http://www.ritypropmart.com"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kent}
+              isBlog={false}
+              title="Kentmskclinic "
+              description="We provide advanced diagnostic assessments and a wide range of ultrasound guided injection procedures.We are using the latest research and evidence-based techniques to set the standards in musculoskeletal care."
+              ghLink="https://kentmskclinic.co.uk"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sankranthi}
+              isBlog={false}
+              title="Sankanthi"
+              description="Our SANKRANTI RESTAURANT, blossomed from the passion to celebrate food every day as a festival, like as we celebrate on our auspicious and much celebrated harvest festival, SANKRANTI."
+              ghLink="https://www.sankrantihotels.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sudio}
+              isBlog={false}
+              title="Veedesign Studio"
+              description="VeeDesign Studio are Expertise in Dealing with Interior Designing with Certified Professinals, Resources, Coordinates and Manages well any Projects."
+              ghLink="https://www.veedesignstudio.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={itkakam}
+              isBlog={false}
+              title="ITKakam"
+              description="We are a global IT services company that provides software product development and testing services."
+              ghLink="http://itkakaam.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={krafkatha}
+              isBlog={false}
+              title="Thecraft Katha"
+              description="Arts of different kinds, over centuries have risen to their pinnacle and fallen. Some lost forever to time. Subtle changes in culture and shifts in peoples interest decided the fate of many an art."
+              ghLink="https://thecraftkatha.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={telangakiratam}
+              isBlog={false}
+              title="Telangana Keratam"
+              description="Its pubilc new Paper Protal"
+              ghLink="https://telanganakeratam.net"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={golconda}
+              isBlog={false}
+              title="Golconda Express News"
+              description="Its pubilc new Paper Protal."
+              ghLink="https://golcondaexpressnews.com/"
             />
           </Col>
         </Row>

@@ -14,6 +14,7 @@ import {
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi"
 import { CgFileDocument } from "react-icons/cg";
+import { MdLocalMovies } from "react-icons/md";
 
 
 function NavBar() {
@@ -99,6 +100,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact Me
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="https://netfixgdp.web.app/"
+                target="_blank"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdLocalMovies style={{ marginBottom: "2px" }} /> Movie Project
               </Nav.Link>
             </Nav.Item>
 

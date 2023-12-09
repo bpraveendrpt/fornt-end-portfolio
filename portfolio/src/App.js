@@ -42,6 +42,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="https://netfixgdp.web.app/" element={"Movies Project"} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
